@@ -5322,7 +5322,7 @@ __metadata:
     "@radix-ui/react-tabs": ^1.1.0
     "@tremor/react": ^3.17.4
     "@types/node": ^20
-    "@types/react": ^18
+    "@types/react": ^19
     "@types/react-dom": ^18
     class-variance-authority: ^0.7.0
     clsx: ^2.1.1
@@ -5332,7 +5332,7 @@ __metadata:
     eslint-config-next: 14.2.4
     next: 14.2.4
     postcss: ^8
-    react: ^18
+    react: ^19
     react-dom: ^18
     swr: ^2.2.5
     tailwind-merge: ^2.3.0
@@ -5357,14 +5357,14 @@ __metadata:
     "@storybook/addon-links": 7.4.5
     "@storybook/react": 6.5.0-alpha.49
     "@types/node": 20.10.6
-    "@types/react": 17.0.43
+    "@types/react": 19.1.2
     "@types/react-dom": 17.0.2
     "@types/styled-components": 5.1.24
     "@vitejs/plugin-react": 1.2.0
     acorn-jsx: 5.3.2
     babel-loader: 8.2.4
     json: 11.0.0
-    react: 17.0.2
+    react: 19.1.0
     react-dom: 17.0.2
     storybook-builder-vite: 0.1.23
     typescript: 4.6.3
@@ -5390,12 +5390,12 @@ __metadata:
     "@testing-library/jest-dom": ^6.1.3
     "@testing-library/react": ^16.0.0
     "@types/jest": ^29.5.4
-    "@types/react": ^18.0.17
+    "@types/react": ^19.1.2
     "@types/react-dom": ^18.2.17
     autoprefixer: ^10.4.16
     axios: ^1.6.2
     postcss: ^8.4.32
-    react: ^18.2.0
+    react: ^19.1.0
     react-dom: ^18.2.0
     react-flow-renderer: ^10.3.16
     react-github-btn: ^1.4.0
@@ -8830,7 +8830,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18, @types/react@npm:^18.0.17":
+"@types/react@npm:*":
   version: 18.3.3
   resolution: "@types/react@npm:18.3.3"
   dependencies:
@@ -8840,14 +8840,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:17.0.43":
-  version: 17.0.43
-  resolution: "@types/react@npm:17.0.43"
+"@types/react@npm:19.1.2, @types/react@npm:^19, @types/react@npm:^19.1.2":
+  version: 19.1.2
+  resolution: "@types/react@npm:19.1.2"
   dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 981b0993f5b3ea9d3488b8cc883201e8ae47ba7732929f788f450a79fd72829e658080d5084e67caa008e58d989b0abc1d5f36ff0a1cda09315ea3a3c0c9dc11
+  checksum: 5a911a2c84be0c9451bb8a7c75c907af1f52afbb4d51b0d62e7516a9b0b1e63c3c1cdc35b79bfc6e66176c76cfff9d43023a781cd3dc59e2744715ced7d7e7c4
   languageName: node
   linkType: hard
 
@@ -8880,13 +8878,6 @@ __metadata:
   version: 0.12.0
   resolution: "@types/retry@npm:0.12.0"
   checksum: 61a072c7639f6e8126588bf1eb1ce8835f2cb9c2aba795c4491cf6310e013267b0c8488039857c261c387e9728c1b43205099223f160bb6a76b4374f741b5603
-  languageName: node
-  linkType: hard
-
-"@types/scheduler@npm:*":
-  version: 0.23.0
-  resolution: "@types/scheduler@npm:0.23.0"
-  checksum: 874d753aa65c17760dfc460a91e6df24009bde37bfd427a031577b30262f7770c1b8f71a21366c7dbc76111967384cf4090a31d65315155180ef14bd7acccb32
   languageName: node
   linkType: hard
 
@@ -25469,22 +25460,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:17.0.2":
-  version: 17.0.2
-  resolution: "react@npm:17.0.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-  checksum: b254cc17ce3011788330f7bbf383ab653c6848902d7936a87b09d835d091e3f295f7e9dd1597c6daac5dc80f90e778c8230218ba8ad599f74adcc11e33b9d61b
-  languageName: node
-  linkType: hard
-
-"react@npm:^18, react@npm:^18.2.0":
-  version: 18.3.1
-  resolution: "react@npm:18.3.1"
-  dependencies:
-    loose-envify: ^1.1.0
-  checksum: a27bcfa8ff7c15a1e50244ad0d0c1cb2ad4375eeffefd266a64889beea6f6b64c4966c9b37d14ee32d6c9fcd5aa6ba183b6988167ab4d127d13e7cb5b386a376
+"react@npm:19.1.0, react@npm:^19, react@npm:^19.1.0":
+  version: 19.1.0
+  resolution: "react@npm:19.1.0"
+  checksum: c0905f8cfb878b0543a5522727e5ed79c67c8111dc16ceee135b7fe19dce77b2c1c19293513061a8934e721292bfc1517e0487e262d1906f306bdf95fa54d02f
   languageName: node
   linkType: hard
 
